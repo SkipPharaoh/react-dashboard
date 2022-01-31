@@ -16,8 +16,9 @@ Be sure to create a handful of components!
 
 
 ## Getting Started
-* `npx create-react-app dashboard-app`
-* `cd dashboard-app`
+* Fork and clone this repo!
+* `cd` into the repo
+* `npx create-react-app .`
 * `code .`
 * `npm start` 
 
