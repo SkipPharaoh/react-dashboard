@@ -1,0 +1,29 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.Sidebar{
+  grid-area: 1 / 1 / 7 / 2;
+  background-color: lightgray;
+  margin-right: 10px;
+}
+.Reviews{
+  grid-area: 1 / 2 / 4 / 3;
+  background-color: lightgray;
+  margin: 10px 10px
+}
+.Rating{
+  grid-area: 1 / 3 / 4 / 4;
+  background-color: lightgray;
+}
+.Sentiment{
+  grid-area: 1 / 4 / 4 / 5;
+  background-color: lightgray;
+}
+.Visitors{
+  grid-area: 4 / 2 / 7 / 5;
+  background-color: lightgray;
+}
